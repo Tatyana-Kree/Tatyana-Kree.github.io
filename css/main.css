@@ -1,0 +1,844 @@
+@import url(fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background: url(../img/Background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-bottom: 210px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 46px 20px 160px 20px;
+}
+
+.container .menu .logo {
+  font-family: "Montserrat Bold";
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.container .menu .log-in,
+.container .menu .sign-up {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.container .menu .sign-up {
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 2em;
+}
+
+.container .holiday {
+  width: 475px;
+  height: 260px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .holiday__title {
+  font-family: "Montserrat Bold";
+  font-size: 52px;
+  line-height: 63px;
+  padding-bottom: 40px;
+}
+
+.container .holiday__partner {
+  font-family: "Roboto Thin";
+  font-size: 24px;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.container .holiday__btn {
+  background-color: #FF4E50;
+  border: 1px solid #FF4E50;
+  border-radius: 2em;
+  color: white;
+  font-family: "Montserrat Bold";
+  font-size: 14px;
+  line-height: 17px;
+  padding: 15px;
+}
+
+.container .dreamshare {
+  margin-top: 90px;
+  margin-bottom: 85px;
+}
+
+.container .dreamshare .dreamshare__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .dreamshare .dreamshare__blocks .dreamshare__block1 {
+  background: url(../img/Step1.png);
+  background-size: 300px;
+  width: 300px;
+  height: 400px;
+  padding: 0 30px 25px 20px;
+}
+
+.container .dreamshare .dreamshare__blocks .dreamshare__block2 {
+  background: url(../img/Step2.png);
+  background-size: 300px;
+  width: 300px;
+  height: 400px;
+  padding: 0 30px 25px 20px;
+}
+
+.container .dreamshare .dreamshare__blocks .dreamshare__block3 {
+  background: url(../img/Step3.png);
+  background-size: 300px;
+  width: 300px;
+  height: 400px;
+  padding: 0 30px 25px 20px;
+}
+
+.container .partner {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 95px;
+}
+
+.container .partner .partner__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .partner .partner__blocks .partner__block {
+  width: 221px;
+  height: 224px;
+}
+
+.container .partner .partner__blocks .partner__block .partner__pic {
+  border-radius: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.container .partner .partner__blocks .partner__block .partner__name {
+  font-family: "Montserrat Bold";
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.container .partner .partner__blocks .partner__block .partner__about {
+  font-family: "Roboto Thin";
+  font-size: 14px;
+  line-height: 14px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .partner .btn {
+  font-family: "Montserrat Bold";
+  font-size: 14px;
+  line-height: 17px;
+  color: #FF4E50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 180px;
+  height: 40px;
+  border: 2px solid #FF4E50;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.container .activity {
+  margin-bottom: 85px;
+}
+
+.container .activity .activity__block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .activity .activity__block1 .activity__block1__1 {
+  width: 300px;
+  height: 310px;
+  background: url(../img/Sport.png) no-repeat;
+}
+
+.container .activity .activity__block1 .activity__block1__2 {
+  width: 300px;
+  height: 310px;
+  background: url(../img/Healath.png) no-repeat;
+}
+
+.container .activity .activity__block1 .activity__block1__3 {
+  width: 300px;
+  height: 310px;
+  background: url(../img/Extreme.png) no-repeat;
+  margin-bottom: 20px;
+}
+
+.container .activity .activity__block2 {
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container .activity .activity__block2 .activity__block2__1 {
+  width: 300px;
+  background: url(../img/Games.png) no-repeat;
+}
+
+.container .activity .activity__block2 .activity__block2__2 {
+  width: 620px;
+  background: url(../img/Culture.png) no-repeat;
+}
+
+.container .activity .activity__block3 {
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .activity .activity__block3 .activity__block3__1 {
+  width: 620px;
+  background: url(../img/CultureCopy.png) no-repeat;
+}
+
+.container .activity .activity__block3 .activity__block3__2 {
+  width: 300px;
+  background: url(../img/GamesCopy.png) no-repeat;
+}
+
+.container .interests {
+  width: 482px;
+  height: 158px;
+  margin: 0 auto;
+  margin-bottom: 95px;
+}
+
+.container .interests .interests__question {
+  font-family: "Roboto Thin";
+  font-size: 18px;
+  line-height: 14px;
+  color: #666666;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.container .interests .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .interests .search .input {
+  width: 299px;
+  height: 40px;
+  font-family: "Roboto Thin";
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+  border: 1px solid #D4D4D4;
+  border-radius: 3px;
+  padding: 14px;
+}
+
+.container .interests .search .search__btn {
+  width: 172px;
+  height: 40px;
+  background: #FF4E50;
+  border-radius: 2em;
+  font-family: "Montserrat Bold";
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  border-top: 3px solid #FF4E50;
+}
+
+.footer {
+  padding-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FF4E50;
+  padding-right: 120px;
+}
+
+.footer__company {
+  font-family: "Montserrat Bold";
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  padding-right: 165px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.footer__company li:first-child {
+  font-family: "Montserrat Bold";
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+}
+
+.footer li {
+  width: 114px;
+  font-family: "Roboto Thin";
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+  padding-bottom: 15px;
+}
+
+.footer__partners {
+  font-family: "Montserrat Bold";
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+}
+
+.design-by {
+  font-family: "Montserrat Bold";
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #CCCCCC;
+  padding-left: 310px;
+  padding-bottom: 5px;
+}
+
+.footer-pic {
+  padding-left: 280px;
+}
+
+.container .dreamshare .title, .container .partner .title, .container .activity .title, .container .interests .title {
+  font-family: 'Montserrat Bold';
+  font-size: 26px;
+  line-height: 32px;
+  padding-bottom: 35px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .dreamshare .dreamshare__blocks .dreamshare__block1 .step, .container .dreamshare .dreamshare__blocks .dreamshare__block2 .step, .container .dreamshare .dreamshare__blocks .dreamshare__block3 .step {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #FF4E50;
+  margin-top: 215px;
+  margin-bottom: 20px;
+}
+
+.container .dreamshare .dreamshare__blocks .dreamshare__block1 .dreamshare__intro, .container .dreamshare .dreamshare__blocks .dreamshare__block2 .dreamshare__intro, .container .dreamshare .dreamshare__blocks .dreamshare__block3 .dreamshare__intro {
+  font-family: 'Montserrat Bold';
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
+}
+
+.container .dreamshare .dreamshare__blocks .dreamshare__block1 .dreamshare__text, .container .dreamshare .dreamshare__blocks .dreamshare__block2 .dreamshare__text, .container .dreamshare .dreamshare__blocks .dreamshare__block3 .dreamshare__text {
+  font-family: 'Roboto Thin';
+  font-size: 14px;
+  line-height: 14px;
+  color: #E3E3E3;
+  padding-top: 25px;
+}
+
+.container .activity .activity__block1 .activity__block1__1 .activity__name, .container .activity .activity__block1 .activity__block1__2 .activity__name, .container .activity .activity__block1 .activity__block1__3 .activity__name, .container .activity .activity__block2 .activity__block2__1 .activity__name, .container .activity .activity__block2 .activity__block2__2 .activity__name, .container .activity .activity__block3 .activity__block3__1 .activity__name, .container .activity .activity__block3 .activity__block3__2 .activity__name {
+  font-family: "Montserrat Bold";
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+}
+
+.container .activity .activity__block1 > div,
+.container .activity .activity__block2 > div,
+.container .activity .activity__block3 > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .container .activity .activity__block1 .activity__block1__1 .activity__name, .container .activity .activity__block1 .activity__block1__2 .activity__name, .container .activity .activity__block1 .activity__block1__3 .activity__name, .container .activity .activity__block2 .activity__block2__1 .activity__name, .container .activity .activity__block2 .activity__block2__2 .activity__name, .container .activity .activity__block3 .activity__block3__1 .activity__name, .container .activity .activity__block3 .activity__block3__2 .activity__name {
+    font-size: 18px;
+  }
+  .activity__block1__1,
+  .activity__block1__2,
+  .activity__block1__3 {
+    background-size: 200px;
+  }
+  .footer__title {
+    margin-left: 30px;
+  }
+  .design-by {
+    padding-left: 200px;
+  }
+  .footer-pic {
+    padding-left: 150px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    width: 100%;
+    background: url(../img/Background.jpg);
+    background-position: center;
+  }
+  .container {
+    width: calc(100% - 20px);
+  }
+  .container .dreamshare .dreamshare__blocks .dreamshare__block1,
+  .container .dreamshare .dreamshare__blocks .dreamshare__block2,
+  .container .dreamshare .dreamshare__blocks .dreamshare__block3 {
+    width: calc(100% / 3 - 15px);
+    max-width: 300px;
+  }
+  .container .partner {
+    width: 492px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 95px;
+  }
+  .container .partner .partner__blocks {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .partner .partner__blocks .partner__block {
+    width: 236px;
+  }
+  .container .activity .activity__block1 .activity__block1__1,
+  .container .activity .activity__block1 .activity__block1__2,
+  .container .activity .activity__block1 .activity__block1__3 {
+    width: calc(100% /3 - 15px);
+    background-position: center;
+    background-size: cover;
+  }
+  .container .activity .activity__block2 .activity__block2__1 {
+    width: calc(100% /3 - 15px);
+    background-position: center;
+    background-size: cover;
+  }
+  .container .activity .activity__block2 .activity__block2__2 {
+    width: calc(100% /3 * 2 - 8px);
+    background-position: center;
+    background-size: cover;
+  }
+  .container .activity .activity__block3 .activity__block3__1 {
+    width: calc(100% /3 * 2 - 8px);
+    background-size: cover;
+    background-position: center;
+  }
+  .container .activity .activity__block3 .activity__block3__2 {
+    width: calc(100% /3 - 15px);
+    background-position: center;
+    background-size: cover;
+  }
+  .container .footer__title {
+    padding-right: 100px;
+  }
+  .container .footer__company {
+    padding-right: 60px;
+  }
+  .container .footer__design {
+    margin-left: 110px;
+    text-align: right;
+  }
+  .container .footer__design .design-by {
+    padding-left: 0;
+  }
+  .container .footer__design .footer-pic {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 540px;
+  }
+  .container .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 25px;
+  }
+  .container .menu .logo {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 97px;
+  }
+  .container .menu .sign-up {
+    margin-left: 10px;
+  }
+  .container .holiday__title {
+    font-family: "Montserrat Bold";
+    font-size: 30px;
+    line-height: 37px;
+    padding-bottom: 20px;
+  }
+  .container .holiday__partner {
+    font-family: "Roboto Thin";
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 30px;
+  }
+  .container .holiday__btn {
+    background-color: #FF4E50;
+    border: 1px solid #FF4E50;
+    border-radius: 2em;
+    color: white;
+    font-family: "Montserrat Bold";
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+    width: 280px;
+  }
+  .container .dreamshare {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .container .dreamshare .dreamshare__blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .dreamshare .dreamshare__blocks .dreamshare__block1 {
+    background: url(../img/st1.png);
+  }
+  .container .dreamshare .dreamshare__blocks .dreamshare__block2 {
+    background: url(../img/st2.png);
+  }
+  .container .dreamshare .dreamshare__blocks .dreamshare__block3 {
+    background: url(../img/st3.png);
+  }
+  .container .dreamshare .dreamshare__blocks .dreamshare__block1,
+  .container .dreamshare .dreamshare__blocks .dreamshare__block2,
+  .container .dreamshare .dreamshare__blocks .dreamshare__block3 {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .container .dreamshare .dreamshare__blocks .dreamshare__block1 .step,
+  .container .dreamshare .dreamshare__blocks .dreamshare__block2 .step,
+  .container .dreamshare .dreamshare__blocks .dreamshare__block3 .step {
+    margin-top: 64px;
+  }
+  .container .partner {
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+  }
+  .container .partner .partner__blocks {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .partner .partner__blocks .partner__block {
+    width: 236px;
+  }
+  .container .partner .btn {
+    width: 280px;
+  }
+  .container .activity {
+    margin-bottom: 40px;
+  }
+  .container .activity .activity__block1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .activity .activity__block1 .activity__block1__1,
+  .container .activity .activity__block1 .activity__block1__2,
+  .container .activity .activity__block1 .activity__block1__3 {
+    width: 300px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  .container .activity .activity__block1 .activity__block1__1 {
+    background: url(../img/a1.png);
+  }
+  .container .activity .activity__block1 .activity__block1__2 {
+    background: url(../img/a2.png);
+  }
+  .container .activity .activity__block1 .activity__block1__3 {
+    background: url(../img/a3.png);
+  }
+  .container .activity .activity__block2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 260px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .activity .activity__block2 .activity__block2__1,
+  .container .activity .activity__block2 .activity__block2__2 {
+    width: 300px;
+    height: 120px;
+  }
+  .container .activity .activity__block2 .activity__block2__1 {
+    background: url(../img/a4.png);
+  }
+  .container .activity .activity__block2 .activity__block2__2 {
+    background: url(../img/a5.png);
+  }
+  .container .activity .activity__block3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 260px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .activity .activity__block3 .activity__block3__1,
+  .container .activity .activity__block3 .activity__block3__2 {
+    width: 300px;
+    height: 120px;
+  }
+  .container .activity .activity__block3 .activity__block3__1 {
+    background: url(../img/a6.png);
+  }
+  .container .activity .activity__block3 .activity__block3__2 {
+    background: url(../img/a7.png);
+  }
+  .container .interests {
+    width: 300px;
+  }
+  .container .interests .search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .interests .search .search__btn {
+    width: 280px;
+  }
+  .container .interests .search .input {
+    margin-bottom: 10px;
+  }
+  .container .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .footer__title {
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
+  .container .footer__company {
+    padding-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 280px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .container .footer__company li:first-child {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    text-align: center;
+  }
+  .container .footer__company li {
+    width: 75px;
+    text-align: center;
+  }
+  .container .footer__company li:nth-child(6) {
+    width: 114px;
+  }
+  .container .footer__design {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .footer__partners {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header .container .holiday {
+    width: 272px;
+  }
+  header .container .holiday__title {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
